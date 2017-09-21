@@ -45,7 +45,10 @@ namespace TipCalculator
 		{
 			
 			// aapt resource value: 0x7f050000
-			public const int theme_devicedefault_background = 2131034112;
+			public const int theme_custom_background = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int theme_devicedefault_background = 2131034113;
 			
 			static Color()
 			{
@@ -60,8 +63,17 @@ namespace TipCalculator
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f070001
+			public const int myButton = 2131165185;
+			
 			// aapt resource value: 0x7f070000
-			public const int myButton = 2131165184;
+			public const int myEditText1 = 2131165184;
+			
+			// aapt resource value: 0x7f070002
+			public const int myTextView1 = 2131165186;
+			
+			// aapt resource value: 0x7f070003
+			public const int myTextView2 = 2131165187;
 			
 			static Id()
 			{
